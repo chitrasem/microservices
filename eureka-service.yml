@@ -1,2 +1,6 @@
 server:
   port: 8085
+eureka:
+  client:
+    register-with-eureka: false # it will stop registering eureka server itself with registry.
+    fetch-registry: false #
