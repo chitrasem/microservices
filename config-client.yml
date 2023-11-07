@@ -1,4 +1,4 @@
-server:
+085server:
   port: 8084
 message: This is Okay right?
 
@@ -10,4 +10,4 @@ eureka:
     register-with-eureka: true
     service-url:
 #      defaultZone: ${EUREKA_SERVER_ADDRESS:http://localhost:8761/eureka}
-      defaultZone: ${EUREKA_SERVER_ADDRESS:http://localhost:8485/eureka}
+      defaultZone: ${EUREKA_SERVER_ADDRESS:http://localhost:8085/eureka}
