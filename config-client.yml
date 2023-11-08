@@ -1,5 +1,5 @@
 server:
-  port: 8084
+  port: 8082
 message: This is Okay right?
 
 eureka:
@@ -9,5 +9,5 @@ eureka:
     fetch-registry: true
     register-with-eureka: true
     service-url:
-#      defaultZone: ${EUREKA_SERVER_ADDRESS:http://localhost:8761/eureka}
-      defaultZone: http://localhost:8085/eureka
+      defaultZone: ${EUREKA_SERVER_ADDRESS:http://localhost:8081/eureka}
+     # defaultZone: http://localhost:8085/eureka
