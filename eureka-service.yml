@@ -1,5 +1,5 @@
 server:
-  port: 8085
+  port: 8081
 eureka:
   client:
     register-with-eureka: false # it will stop registering eureka server itself with registry.
