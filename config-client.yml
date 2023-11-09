@@ -1,5 +1,5 @@
 server:
-  port: 8082
+  port: 0
 message: This is Okay right?
 
 eureka:
@@ -7,7 +7,5 @@ eureka:
     #instance-id: ${spring.application.name}:${spring.application.instance_id:${random.value}}
     preferIpAddress: true
   client:
-    fetch-registry: true
-    register-with-eureka: true
-    service-url:
+    serviceUrl:
       defaultZone: ${EUREKA_SERVER_ADDRESS:http://localhost:8761/eureka}
